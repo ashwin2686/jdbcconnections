@@ -1,0 +1,11 @@
+com/pearson/daalt/qa/helpers/JDBCRedShiftHelper.class
+com/pearson/daalt/qa/helpers/JDBCSqlServerHelper.class
+com/pearson/daalt/qa/helpers/JDBCSnowflakeNonProdHelper.class
+com/pearson/daalt/qa/helpers/JDBCPrestoHelper.class
+com/pearson/daalt/qa/helpers/JDBCCassandraHelper.class
+com/pearson/daalt/qa/helpers/JDBCSnowflakeHelper.class
+com/pearson/daalt/qa/helpers/JDBCHiveHelper.class
+com/pearson/daalt/qa/helpers/JDBCAthenaHelper.class
+com/pearson/daalt/qa/helpers/JDBCMySqlHelper.class
+com/pearson/daalt/qa/helpers/JDBCOracleHelper.class
+com/pearson/daalt/qa/helpers/JDBCPostgreSqlHelper.class

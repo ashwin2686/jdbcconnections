@@ -1,0 +1,12 @@
+/Users/udasaas/jdbc-connections/src/main/java/com/pearson/daalt/qa/helpers/JDBCPostgreSqlHelper.java
+/Users/udasaas/jdbc-connections/src/main/java/com/pearson/daalt/qa/helpers/JDBCOracleHelper.java
+/Users/udasaas/jdbc-connections/src/main/java/com/pearson/daalt/qa/helpers/JDBCRedShiftHelper.java
+/Users/udasaas/jdbc-connections/src/main/java/com/pearson/daalt/qa/helpers/JDBCSnowflakeHelper.java
+/Users/udasaas/jdbc-connections/src/main/java/com/pearson/daalt/qa/helpers/JDBCHiveHelper.java
+/Users/udasaas/jdbc-connections/src/main/java/com/pearson/daalt/qa/helpers/JDBCPrestoHelper.java
+/Users/udasaas/jdbc-connections/src/main/java/com/pearson/daalt/qa/helpers/JDBCSqlServerHelper.java
+/Users/udasaas/jdbc-connections/src/main/java/com/pearson/daalt/qa/helpers/JDBCAthenaHelper.java
+/Users/udasaas/jdbc-connections/src/main/java/com/pearson/daalt/qa/helpers/AWSS3Helper.java
+/Users/udasaas/jdbc-connections/src/main/java/com/pearson/daalt/qa/helpers/JDBCSnowflakeNonProdHelper.java
+/Users/udasaas/jdbc-connections/src/main/java/com/pearson/daalt/qa/helpers/JDBCMySqlHelper.java
+/Users/udasaas/jdbc-connections/src/main/java/com/pearson/daalt/qa/helpers/JDBCCassandraHelper.java

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.pearson</groupId>
+    <artifactId>jdbc-connections</artifactId>
+    <version>1.54-SNAPSHOT</version>
+
+    <dependencies>
+
+        <!--<dependency>
+            <groupId>com.amazon.hive</groupId>
+            <artifactId>jdbc4</artifactId>
+             <scope>system</scope>
+            <version>1.4.1</version>
+             <systemPath>${basedir}/src/lib/HiveJDBC41.jar</systemPath>
+        </dependency>-->
+
+        <!--<dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-metastore</artifactId>
+            <version>2.0.0</version>
+        </dependency>-->
+
+        <!--<dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-service</artifactId>
+            <version>2.0.0</version>
+        </dependency>-->
+
+        <dependency>
+            <groupId>org.pentaho</groupId>
+            <artifactId>pentaho-aggdesigner-algorithm</artifactId>
+            <scope>system</scope>
+            <version>5.1.5-jhyde</version>
+            <systemPath>${basedir}/src/lib/pentaho-aggdesigner-algorithm-5.1.5-jhyde.jar</systemPath>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.1.4</version>
+        </dependency>
+
+
+       <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc6</artifactId>
+            <version>11.2.0</version>
+            <scope>system</scope>
+                  <systemPath>${basedir}/src/lib/ojdbc6.jar</systemPath>
+        </dependency>
+
+
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.1.1</version>
+            <scope>test</scope>
+        </dependency>
+
+       <!-- <dependency>
+            <groupId>com.amazonaws.athena.jdbc</groupId>
+            <artifactId>AthenaJDBC41</artifactId>
+            <version>1.0.1-atlassian-hosted</version>
+        </dependency>-->
+
+      
+
+
+         <dependency>
+             <groupId>com.amazon</groupId>
+             <artifactId>redshift-jdbc42</artifactId>
+             <version>1.2.1.1001</version>
+               <scope>system</scope>
+             <systemPath>${basedir}/src/lib/RedshiftJDBC42-1.2.1.1001.jar</systemPath>
+
+         </dependency>
+         
+         
+         <!-- Tools.jar fix -->
+<dependency>
+<groupId>jdk.tools</groupId>
+<artifactId>jdk.tools</artifactId>
+<version>1.8.0_102</version>
+<scope>system</scope>
+<systemPath>${basedir}/src/lib/tools.jar</systemPath>
+</dependency> 
+         
+         
+          <!-- Athena dependency -->
+         
+ <!--<dependency>
+  <groupId>com.amazonaws.athena.jdbc</groupId>
+  <artifactId>AthenaJDBC41</artifactId>
+  <version>1.0.1-atlassian-hosted</version>
+</dependency>-->
+
+
+<!-- https://mvnrepository.com/artifact/net.snowflake/snowflake-jdbc -->
+		<dependency>
+   			 <groupId>net.snowflake</groupId>
+   			 <artifactId>snowflake-jdbc</artifactId>
+    			<version>3.8.4</version>
+		</dependency>
+		
+         
+
+        <!-- old dependencies -->
+
+
+
+           <!--<dependency>
+             <groupId>org.apache.hive</groupId>
+             <artifactId>hive-jdbc</artifactId>
+             <version>0.14.0</version>
+         </dependency>-->
+
+         <dependency>
+             <groupId>org.apache.hadoop</groupId>
+             <artifactId>hadoop-core</artifactId>
+             <version>1.0.3</version>
+         </dependency>
+         <dependency>
+             <groupId>commons-logging</groupId>
+             <artifactId>commons-logging</artifactId>
+             <version>1.0.4</version>
+         </dependency>
+
+
+         <!--<dependency>
+             <groupId>org.apache.hive</groupId>
+             <artifactId>hive-exec</artifactId>
+             <version>0.11.0</version>
+         </dependency>
+-->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.1.1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!--<dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>2.42.2</version>
+        </dependency>-->
+        <!--<dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.51</version>
+        </dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+	<dependency>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>6.4.0.jre8</version>
+    <scope>test</scope>
+		</dependency>
+        
+        
+        
+        <dependency>
+            <groupId>org.apache-extras.cassandra-jdbc</groupId>
+            <artifactId>cassandra-jdbc</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.datastax.cassandra</groupId>
+            <artifactId>cassandra-driver-mapping</artifactId>
+            <version>2.1.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.datastax.cassandra</groupId>
+            <artifactId>cassandra-driver-core</artifactId>
+            <version>2.1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.codahale.metrics</groupId>
+            <artifactId>metrics-core</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+
+
+
+        <dependency>
+            <groupId>net.jpountz.lz4</groupId>
+            <artifactId>lz4</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+        <!--<dependency>
+            <groupId>org.xerial.snappy</groupId>
+            <artifactId>snappy-java</artifactId>
+            <version>1.1.1.6</version>
+        </dependency>-->
+
+        <dependency>
+            <groupId>io.takari.maven.plugins</groupId>
+            <artifactId>presto-maven-plugin</artifactId>
+            <version>0.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.facebook.presto</groupId>
+            <artifactId>presto-jdbc</artifactId>
+            <version>0.179</version>
+        </dependency>
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk</artifactId>
+            <version>1.9.39</version>
+        </dependency>
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+		    <groupId>mysql</groupId>
+ 		   <artifactId>mysql-connector-java</artifactId>
+		    <version>5.1.6</version>
+		</dependency>
+
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-bigquery</artifactId>
+            <version>1.26.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-bigquery</artifactId>
+            <version>v2-rev383-1.23.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-bigquery</artifactId>
+            <version>1.26.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.5</version>
+        </dependency>
+        
+        
+        <!-- https://mvnrepository.com/artifact/com.syncron.amazonaws/simba-athena-jdbc-driver -->
+		<dependency>
+    <groupId>com.syncron.amazonaws</groupId>
+    <artifactId>simba-athena-jdbc-driver</artifactId>
+   <version>2.0.2</version>
+    </dependency>
+
+
+
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.17.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.1</version>
+            <scope>test</scope>
+        </dependency>
+
+
+    </dependencies>
+
+
+    <distributionManagement>
+        <repository>
+            <id>Pearson-Nexus-Releases</id>
+            <url>https://nexus.releng.pearsondev.com/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>Pearson-Nexus-Dependencies</id>
+<!--             <url>https://devops-tools.pearson.com/nexus-deps/content/repositories/snapshots</url> -->
+            <url>https://nexus.releng.pearsondev.com/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+    <repositories>
+        <repository>
+            <id>redshift</id>
+            <url>http://redshift-maven-repository.s3-website-us-east-1.amazonaws.com/release</url>
+        </repository>
+    </repositories>
+</project>
